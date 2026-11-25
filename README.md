@@ -2,20 +2,21 @@
 
 Site da Bonna Pizza, no Marapé, em Santos.
 
-## Uso
+## Páginas
 
-Abra `index.html` no navegador ou publique a raiz do repositório em uma hospedagem de sites estáticos. Não é necessário instalar dependências ou executar uma etapa de build.
+- `index.html`: apresentação, fotos, mascote, localização e contatos.
+- `cardapio.html`: cardápio com 125 opções, busca, categorias e montagem do pedido.
 
-O HTML inclui estilos, scripts e imagens. As fontes são carregadas pelo Google Fonts, com fontes alternativas disponíveis; o mapa incorporado e os canais externos precisam de conexão com a internet.
+Publique a raiz do repositório em uma hospedagem de sites estáticos. Não há dependências de instalação ou etapa de build. Mantenha os arquivos CSS, JavaScript e a pasta `assets` junto das páginas.
 
-## Recursos
+## Pedidos
 
-- Layout responsivo, animações e menu para celular.
-- Cardápio com 125 opções, filtros por categoria e busca.
-- Escolha de tamanho e mensagem de pedido pelo WhatsApp.
-- Links para Instagram, telefones e Google Maps.
-- Logo e favicon da Bonna.
+O cliente escolhe sabores, tamanhos, quantidades e observações, depois informa seu nome e escolhe entrega ou retirada. Para entrega, rua, número, bairro e cidade são obrigatórios. O WhatsApp abre com todos os itens e o endereço preenchidos; o cliente ainda precisa enviar a mensagem, e a pizzaria confirma o pedido no atendimento.
+
+Os dados preenchidos ficam apenas na página até o cliente abrir o WhatsApp. Não há cadastro nem envio para um servidor próprio.
 
 ## Cardápio
 
-Os valores transcritos são do material de 2023 e estão sinalizados no site. Confirme preços e disponibilidade com a pizzaria antes de concluir um pedido.
+Os preços e promoções são do material de 2023 e estão sinalizados como referência. Valores atuais, disponibilidade, frete e prazo são confirmados com a Bonna pelo WhatsApp.
+
+Fontes, mapa e canais externos precisam de internet. O site respeita a preferência do navegador por animações reduzidas.
